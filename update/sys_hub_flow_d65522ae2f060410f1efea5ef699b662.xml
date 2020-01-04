@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"e535d3fb-57d7-41f4-a2be-57d25843ef88.Table","label":"4.2.6.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"e535d3fb-57d7-41f4-a2be-57d25843ef88.Record","label":"4.2.6.1➛Record","reference":"task","reference_display":"Task","type":"document_id","base_type":"document_id"},{"name":"2704ea86-450c-41b1-b737-1bb804e9ddc5.Table","label":"4.2.4.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"2704ea86-450c-41b1-b737-1bb804e9ddc5.Record","label":"4.2.4.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.record.u_when_needed","label":"4.1➛NeedIt Record➛When needed","reference":"","reference_display":"When needed","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit","column_name":"u_when_needed"},{"name":"ba5a8028-3503-45ba-a4eb-fb22e66ce901.answer.assignee","label":"4.2➛Assignee Category Record➛Assignee","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_58872_needit_assignee_category","column_name":"assignee"},{"name":"16e6f39b-739c-44d7-9623-9812b522b707.Table","label":"4.2.1.1➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"16e6f39b-739c-44d7-9623-9812b522b707.Record","label":"4.2.1.1➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"ba5a8028-3503-45ba-a4eb-fb22e66ce901.answer","label":"4.2➛Assignee Category Record","reference":"x_58872_needit_assignee_category","reference_display":"Assignee Category","type":"reference","base_type":"reference"},{"name":"59f8bcf3-6ec9-4947-bb03-04e47865c934.table_name","label":"5.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"59f8bcf3-6ec9-4947-bb03-04e47865c934.record","label":"5.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"bef67226-728c-45e4-b02d-d3f520fa5f18.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"bef67226-728c-45e4-b02d-d3f520fa5f18.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"03ec9417-ab1b-407b-a121-0c5a4a21590f.approval_state","label":"3➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice"},{"name":"Created_1.current.u_requested_for.manager","label":"Trigger➛NeedIt Record➛Requested for➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.record","label":"4.1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.table_name","label":"4.1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"table_name","base_type":"table_name"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.record.u_request_type","label":"4.1➛NeedIt Record➛Request type","reference":"","reference_display":"Request type","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_request_type"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.record.u_what_needed","label":"4.1➛NeedIt Record➛What needed","reference":"","reference_display":"What needed","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"u_what_needed"},{"name":"9a58b545-9fe8-4630-af05-3e181fa5bf7a.record.priority","label":"4.1➛NeedIt Record➛Priority","reference":"","reference_display":"Priority","type":"choice","base_type":"choice","parent_table_name":"x_58872_needit_needit","column_name":"priority"}]</label_cache>
+        <latest_snapshot>1d7068722f8a0410f1efea5ef699b6d1</latest_snapshot>
+        <master_snapshot>1d7068722f8a0410f1efea5ef699b6d1</master_snapshot>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>2d70a8722f8a0410f1efea5ef699b60d</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>yuzuru.shimura</sys_created_by>
+        <sys_created_on>2020-01-03 03:31:16</sys_created_on>
+        <sys_id>d65522ae2f060410f1efea5ef699b662</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_d65522ae2f060410f1efea5ef699b662</sys_update_name>
+        <sys_updated_by>yuzuru.shimura</sys_updated_by>
+        <sys_updated_on>2020-01-04 13:04:58</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d65522ae2f060410f1efea5ef699b662"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d65522ae2f060410f1efea5ef699b662"/>
+</record_update>
