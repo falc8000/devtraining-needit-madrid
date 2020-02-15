@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Long flow test with subflow</description>
+        <internal_name>longflow02</internal_name>
+        <label_cache>[{"name":"e4719e9c-9100-4107-8173-a0f5543038e0.parameter","label":"1➛parameter","reference_display":"parameter","type":"integer","base_type":"integer"},{"name":"c99e1bbc-e97a-40e2-8527-fd5ea0765cc3.val","label":"2➛val","reference_display":"val","type":"integer","base_type":"integer"},{"name":"57508c1a-9c2d-45dc-a9e4-ada0ebbd35e7.val","label":"3➛val","reference_display":"val","type":"integer","base_type":"integer"},{"name":"3504c0fe-d54f-4efa-a7ae-1f1a5d4bd659.val","label":"4➛val_out1","reference_display":"val_out1","type":"integer","base_type":"integer"},{"name":"6357fc7c-038f-4fd6-b643-696201b46b97.val","label":"5➛val_out1","reference_display":"val_out1","type":"integer","base_type":"integer"},{"name":"27ced30f-1c96-4045-8fa1-c1dddc6ea078.val_out1","label":"6➛val_out1","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>LongFlow02</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:00:34</sys_created_on>
+        <sys_id>62c7318b2f220010f1efea5ef699b6f2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>LongFlow02</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_62c7318b2f220010f1efea5ef699b6f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:20:26</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=62c7318b2f220010f1efea5ef699b6f2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=62c7318b2f220010f1efea5ef699b6f2"/>
+</record_update>

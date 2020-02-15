@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>return0</internal_name>
+        <label_cache>[{"name":"{{step[f1ed16c7-e21d-4904-976a-3ea9fb2a03e8].o}}","label":"step➛Script step➛o","type":"step","ref":""},{"name":"{{step[f1ed16c7-e21d-4904-976a-3ea9fb2a03e8].ou}}","label":"step➛Script step➛ou","type":"step","ref":""},{"name":"{{step[f1ed16c7-e21d-4904-976a-3ea9fb2a03e8].out}}","label":"step➛Script step➛out","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>3aadb58f2f220010f1efea5ef699b6b0</latest_snapshot>
+        <master_snapshot>4fadb58f2f220010f1efea5ef699b6d1</master_snapshot>
+        <name>return0</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:07:43</sys_created_on>
+        <sys_id>6769b58b2f220010f1efea5ef699b6e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>return0</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_6769b58b2f220010f1efea5ef699b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 10:26:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=6769b58b2f220010f1efea5ef699b6e0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6769b58b2f220010f1efea5ef699b6e0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>6769b58b2f220010f1efea5ef699b6e0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:09:36</sys_created_on>
+        <sys_id>bad93dcb2f220010f1efea5ef699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 10:09:36</sys_updated_on>
+        <value/>
+        <variable display_value="">bad93dcb2f220010f1efea5ef699b63e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6769b58b2f220010f1efea5ef699b6e0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>6769b58b2f220010f1efea5ef699b6e0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:09:36</sys_created_on>
+        <sys_id>3ad93dcb2f220010f1efea5ef699b648</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 10:09:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6769b58b2f220010f1efea5ef699b6e0</table>
+        <value>{{step[f1ed16c7-e21d-4904-976a-3ea9fb2a03e8].out}}</value>
+    </sys_element_mapping>
+</record_update>

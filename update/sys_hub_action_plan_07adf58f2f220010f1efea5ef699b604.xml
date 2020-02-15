@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_plan">
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="return0">6769b58b2f220010f1efea5ef699b6e0</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"07adf58f2f220010f1efea5ef699b604","name":"plan"}}</plan>
+        <snapshot>3aadb58f2f220010f1efea5ef699b6b0</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:26:16</sys_created_on>
+        <sys_id>07adf58f2f220010f1efea5ef699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6769b58b2f220010f1efea5ef699b6e0</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_plan_07adf58f2f220010f1efea5ef699b604</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-29 10:26:16</sys_updated_on>
+    </sys_hub_action_plan>
+</record_update>

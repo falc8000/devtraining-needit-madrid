@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_sub_flow_instance">
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="LongFlow02Sub3">671a70d32f220010f1efea5ef699b6ac</flow>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <parent_ui_id/>
+        <subflow display_value="LongFlow02Sub2">6a90ce032f620010f1efea5ef699b659</subflow>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 00:15:42</sys_created_on>
+        <sys_id>f08b70172f220010f1efea5ef699b6d9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_sub_flow_instance_f08b70172f220010f1efea5ef699b6d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:20:00</sys_updated_on>
+        <ui_id>d0ebdc5f-7cb4-4d78-8bca-a00233ca02b8</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f08b70172f220010f1efea5ef699b6d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>f08b70172f220010f1efea5ef699b6d9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 00:15:42</sys_created_on>
+        <sys_id>3c8b70172f220010f1efea5ef699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:15:42</sys_updated_on>
+        <value/>
+        <variable display_value="">cfc006432f620010f1efea5ef699b60c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>f08b70172f220010f1efea5ef699b6d9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 00:15:59</sys_created_on>
+        <sys_id>4d9bb0172f220010f1efea5ef699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:15:59</sys_updated_on>
+        <value/>
+        <variable display_value="">2e90ce032f620010f1efea5ef699b65d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f08b70172f220010f1efea5ef699b6d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>val</field>
+        <id>f08b70172f220010f1efea5ef699b6d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 00:15:42</sys_created_on>
+        <sys_id>b88b70172f220010f1efea5ef699b6dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:15:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_87c006432f620010f1efea5ef699b60b</table>
+        <value>{{48b824ad-3da4-476a-b64e-46f210eb58b2.val}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>val</field>
+        <id>f08b70172f220010f1efea5ef699b6d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-30 00:15:59</sys_created_on>
+        <sys_id>c99bb0172f220010f1efea5ef699b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:15:59</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_6a90ce032f620010f1efea5ef699b659</table>
+        <value>{{48b824ad-3da4-476a-b64e-46f210eb58b2.val}}</value>
+    </sys_element_mapping>
+</record_update>

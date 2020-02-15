@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Long flow test sub 1 - repeat 5 times 'add1'</description>
+        <internal_name>longflow02sub1</internal_name>
+        <label_cache>[{"name":"3901a6ca-5525-4d09-97c8-9a0ea0bb66b5.val","label":"1➛val","reference_display":"val","type":"integer","base_type":"integer"},{"name":"subflow.val","label":"Input➛val_in1","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":""},{"name":"9444cce0-05c6-4544-8894-2c8c8f2f7993.val","label":"2➛val","reference_display":"val","type":"integer","base_type":"integer"},{"name":"859681ac-78fa-43e0-988b-89b2b7ed7bf3.val","label":"3➛val","reference_display":"val","type":"integer","base_type":"integer"},{"name":"a5733bc8-e7f6-4d88-83cb-789e024492bb.val","label":"4➛val","type":"integer","base_type":"integer"},{"name":"7895023e-1c59-4d95-bd4b-f2553da26c46.val","label":"5➛val","type":"integer","base_type":"integer"}]</label_cache>
+        <latest_snapshot>407c34572f220010f1efea5ef699b6b6</latest_snapshot>
+        <master_snapshot>35bd798f2f220010f1efea5ef699b69a</master_snapshot>
+        <name>LongFlow02Sub1</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-29 10:21:57</sys_created_on>
+        <sys_id>fbacfd0f2f220010f1efea5ef699b613</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>LongFlow02Sub1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_fbacfd0f2f220010f1efea5ef699b613</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-30 00:19:45</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbacfd0f2f220010f1efea5ef699b613"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fbacfd0f2f220010f1efea5ef699b613"/>
+</record_update>
